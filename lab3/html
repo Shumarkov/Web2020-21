@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Flexbox</title>
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  
+  <header class="header">
+    <div class="overlay">
+      <h1 class="header-title">Четыре вида приготовления кофе</h1>
+    </div>
+  </header>
+  
+ <div class="elements">
+   <div class="item">
+    <img class="item-image" src="https://cdn.the-village.ru/the-village.ru/post-cover/SEgA8YtGDOBosIKiJaG81Q-default.jpg">
+    <h3 class="item-title">Эспрессо</h3>
+    <p class="item-text">Метод приготовления кофе путём прохождения горячей воды 90 градусов под давлением около 9 бар через фильтр с молотым кофе.</p></div>
+   <div class="item">
+    <img class="item-image" src="https://images11.popmeh.ru/upload/img_cache/f3c/f3cd32a682ebea3d07fc7ba1f9a27441_ce_2062x2062x426x297_cropped_800x800.jpeg">
+    <h3 class="item-title">Френч пресс</h3>
+    <p class="item-text">Приготовление кофе во Френч прессе сохраняет все ценные масла поглощаемые бумажными фильтрами, и все оттенки вкуса кофе.</p></div>
+   <div class="item">
+    <img class="item-image" src="https://i2.wp.com/antennadaily.ru/wp-content/uploads/2019/10/Nitro-Cold-Brew.jpg?fit=370%2C265&ssl=1">  
+    <h3 class="item-title">Нитро брю</h3>  
+    <p class="item-text">Это «младший брат» колд брю кофе. Различие в том, что в колд брю добавляется азот, который по-особенному меняет вкус и текстуру напитка. В результате получается пенистый колд брю, немного сладкий и похожий на пинту пива.</p></div>
+   <div class="item">
+    <img class="item-image" src="https://media-cdn.tripadvisor.com/media/photo-s/11/e9/f4/bb/caption.jpg">
+    <h3 class="item-title">Вьетнамский фильтр</h3>
+    <p class="item-text">Простой метод заваривания, который потребует 4-5 минут вашего времени. В противоположность фильтрам выше, этот метод не требует особых умений: просто залейте водой и ждите.</p></div>
+ </div>
+
+  <footer class="footer">
+    <h4 class="footer-author">
+    Shumarkov 
+    </h4>  
+  </footer>  
+</body>
+</html>
