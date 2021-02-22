@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="styles.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Форма входа</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Podkova&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+      background: url(https://images5.alphacoders.com/100/1001614.jpg);
+      background-size: cover;
+      color: whitesmoke;
+    }
+    </style>
+    
+            <header>
+                <h1 id="main-title" align="center">Форма входа</h1>
+            </header>
+            <main>
+                <form action="https://httpbin.org/post" method="post" enctype="multipart/form-data">
+                    <label for="mail"><h2>Электронная почта:</h2></label><br>
+                    <input class="all" type="text" placeholder="example@mail.com" name="mail" id="mail"><br>
+                    <label for="pasword"><h2>Пароль:</h2></label><br>
+                    <input class="all" type="text" placeholder="********" name="password" id="password"><br>
+                    <ul class="checkboxes">
+                        <li class="checkbox-group">
+                            <input type="checkbox" name="zapomnit" value="zapomnit" checked>
+                            <label for="zapomnit" ><h2>Запомнить меня</h2></label>
+                        </li><br>
+                    <input class="all" type="submit" value="Войти">
+    
+                </form>
+
+</main>
+</body>
+</html>
