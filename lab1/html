@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="styles.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Мини блог</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Podkova&display=swap" rel="stylesheet">
+</head>
+<body>
+  <style>
+body{
+  background: url(https://images5.alphacoders.com/100/1001614.jpg);
+  background-size: cover;
+  color: whitesmoke;
+}
+</style>
+<header>
+
+</header>
+<main>
+<h1>
+  Блог студента Московского Политеха
+</h1>
+<br>
+<div class="block">
+<div class="oneblock">
+  <h2>Приветствие</h2>
+  
+  <h3>Приветствую тебя дорогой друг!</h3>
+  
+  <h3>Я обычный студет изучающий основы веб-программирования.</h3> 
+</div>
+<div class="oneblock">
+  <h2>Интересы</h2>
+  
+  <h3>Увлекаюсь автокультурой</h3>
+  
+  <h3>А также люблю поиграть в видеоигры</h3>
+</div>
+<div class="oneblock">
+  <h2>Интересные ссылки</h2>
+  <h3><a href="http://form.std-1087.ist.mospolytech.ru">Форма обратной связи</a></h3>
+  <h3><a href="http://log-in.std-1087.ist.mospolytech.ru/">Форма входа</a></h3>
+</div>
+</div>
+<img class="pics" src="https://sun9-36.userapi.com/c857028/v857028574/1b23df/uobyHPXWWQg.jpg"width=350 border-radius = 5px >
+</main>
+<footer>
+  <h2>Если возникли вопросы</h2>
+  <br>
+  <h3>Вконтакте:
+<a href="https://vk.com/id567299791" style="color:cyan">https://vk.com/id567299791</a></h3>
+<br>
+<h3>Почта: Shumarkov@yandex.ru</h3>
+</footer>
+</body>
+</html>
