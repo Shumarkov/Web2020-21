@@ -1,0 +1,85 @@
+body, h1, h2, h3, h4, p, a {  
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+  } 
+  
+  *{
+    box-sizing: border-box;
+  }
+  
+  body, h1 {
+    margin: 0;
+  }
+  
+  body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+  }
+  
+  .header {
+    height: 100vh;
+    background-color: #eee;
+    background-image: url(https://images.wallpaperscraft.ru/image/kofejnye_zerna_kofe_poverkhnost_116750_1920x1080.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .header-title {
+    font-size: 140px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: auto;
+  }
+  
+  .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+  }
+  
+  .elements{
+    width: 900px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .item{
+    width: 350px;
+    margin-bottom: 60px;
+    padding: 45px 45px 70px 45px;
+    margin-right: 90px;
+    box-shadow: 4px 4px 5px rgba(250, 50, 50, .4);
+  }
+
+  .item-title{
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .item-text{
+    font-size: 16px;
+  }
+
+  .item-image{
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  
+  .footer{
+    height: 300px;
+    background-color: black;
+    display: flex;
+  }
+  
+  .footer-author{
+    font-size: 24px;
+    color: white;
+    margin: auto;
+  }
