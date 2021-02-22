@@ -1,0 +1,47 @@
+    main{
+            text-align:center; 
+            
+    }
+    h1{
+        font-family: 'Press Start 2P', cursive;
+    }
+    h2{
+        font-family: 'Rubik Mono One', sans-serif;
+    }
+    h3{
+        font-family: 'Podkova', serif;
+
+    }
+    .block {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .oneblock{
+        text-align: center;
+        background-color: aliceblue;
+        color: black;
+        border-radius: 5px;
+        width: 400px;
+        margin: 5px;
+        height: 170px;
+        
+    }
+    .pics{
+        margin: 5px;
+        border-radius: 5px
+    }
+    
+    footer {
+        position: fixed;
+        height: 70px;
+        bottom: 0;
+        background-color:black;
+        background-size: cover;
+        border-radius: 5px;
+        display: inline-flex;
+        width: 99%;
+    }
+    footer h3 {
+        padding-left: 16%;
+    }
