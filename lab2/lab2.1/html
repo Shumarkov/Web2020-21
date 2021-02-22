@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="styles.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Форма обратной связи</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Podkova&display=swap" rel="stylesheet">
+</head>
+<body>
+  <style>
+body{
+  background: url(https://images5.alphacoders.com/100/1001614.jpg);
+  background-size: cover;
+  color: whitesmoke;
+}
+</style>
+<header>
+</header>
+<main>
+<h1>Форма обратной связи.</h1>
+<form action="https://httpbin.org/post" method="post" enctype="multipart/form-data">
+    <label for="FIO">ФИО:</label><br>
+    <input class="name" type="text" placeholder="Иванов Иван Иванович" name="FIO" id="FIO"><br>
+
+    <div class="sx">
+            Ваш пол: <br><br>
+            <label for="id_gender_male">Мужской</label>
+            <input class="sex" type="radio" name="gender" value="male" id="id_gender_male">
+            <label for="id_gender_female"> Женский</label><br>
+            <input class="sex" type="radio" name="gender" value="female" id="id_gender_female" checked="checked">
+    </div>
+
+    <label for="id_month">Месяц</label> и <label for="id_year">год</label> рождения:<br>
+
+    <select name="month" id="id_month">
+        <option value="Январь" selected="selected">Январь</option>
+        <option value="Февраль">Февраль</option>
+        <option value="Март">Март</option>
+        <option value="Апрель">Апрель</option>
+        <option value="Май">Май</option>
+        <option value="Июнь">Июнь</option>
+        <option value="Июль">Июль</option>
+        <option value="Август">Август</option>
+        <option value="Сентябрь">Сентябрь</option>
+        <option value="Октябрь">Октябрь</option>
+        <option value="Ноябрь">Ноябрь</option>
+        <option value="Декабрь">Декабрь</option>
+    </select>
+    <select name="year" id="id_year">
+        <option value="1990" selected="selected">1990</option>
+        <option value="1991" selected="selected">1991</option>
+        <option value="1992" selected="selected">1902</option>
+        <option value="1993" selected="selected">1993</option>
+        <option value="1994" selected="selected">1994</option>
+        <option value="1995" selected="selected">1995</option>
+        <option value="1996" selected="selected">1996</option>
+        <option value="1997" selected="selected">1997</option>
+        <option value="1998" selected="selected">1998</option>
+        <option value="1999" selected="selected">1999</option>
+        <option value="2001" selected="selected">2000</option>
+        <option value="2002" selected="selected">2001</option>
+        <option value="2003" selected="selected">2002</option>
+        <option value="2004" selected="selected">2003</option>
+        <option value="2005" selected="selected">2004</option>
+        <option value="2006" selected="selected">2005</option>
+        <option value="2007" selected="selected">2006</option>
+        <option value="2008" selected="selected">2007</option>
+    </select><br>
+
+    <label for="id_techno">Знакомые технологии:</label><br>
+
+    <select name="techno" id="id_techno" multiple="" size="4">
+        <option value="HTML">HTML</option>
+        <option value="CSS" selected="selected">CSS</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="Node.js">Node.js</option>
+    </select><br>
+
+    <label for="id_photo">Фото:</label>
+    <input type="file" id="id_photo"><br>
+    <input type="submit" value="Сохранить">
+</form>
+</main>
+</body>
+</html>
