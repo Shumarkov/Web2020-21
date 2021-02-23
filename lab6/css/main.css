@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+:root {
+  --background: #ffffff;
+  --accent: #4e4e4e;
+  --text: #000000;
+  --text-accent: #7e7e7e;
+  --main-font: "Comfortaa", cursive;
+  --icon-font: "Font Awesome 5 Free", "Font Awesome 5 Brands";
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: var(--main-font);
+  font-weight: 400;
+}
+
+nav {
+  background-color: var(--accent);
+  font-size: larger;
+}
+
+nav a {
+  color: var(--text-accent);
+}
+
+nav a:hover {
+  color: var(--background);
+}
+
+* {
+  outline: none !important;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.navbar-toggler-icon::after {
+  content: "\f054";
+  color: var(--text-accent);
+  transform: rotate(90deg);
+  transition: 0.5s;
+}
+.navbar-toggler-icon.clicked::after {
+  transform: rotate(270deg);
+}
+
+.navbar-toggler-icon:hover::after {
+  color: var(--background);
+}
+
+.product-field {
+  color: var(--text);
+}
+.product-field p {
+  font-size: 18px;
+}
+.product-field svg {
+  fill: var(--text);
+  height: 200px;
+}
+
+.elips div {
+  height: 30px;
+  width: 30px;
+  border: 7px solid var(--accent);
+  
+}
+
+h1 {
+  padding: 0 10px;
+  display: inline-block;
+  color: var(--background);
+  border: var(--accent) solid 5px;
+
+  background-color: var(--accent);
+  font-weight: bold;
+}
+
+.features {
+  font-size: larger;
+  list-style: none;
+  font-size: 25px;
+}
+
+.features li::before {
+  content: "\f054";
+
+  display: inline-block;
+  padding: 10px;
+  font-weight: 900;
+  color: var(--accent);
+
+  font-family: var(--icon-font);
+}
+
+.navbar-brand svg {
+  height: 40px;
+  width: 40px;
+  fill: var(--text-accent);
+}
+.navbar-brand svg:hover {
+  fill: var(--background);
+}
+h2 {
+  font-weight: bold;
+}
+
+.report-field button {
+  background-color: var(--accent);
+  color: var(--text-accent);
+  box-shadow: none;
+}
