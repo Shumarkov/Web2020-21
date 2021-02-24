@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous" />
+   <title>Document</title>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+   <div class="loading text-center position-absolute bg-danger">
+      <img src="img/logo.png"" alt="" class=" jump">
+      <h4>Страница загружается...</h4>
+   </div>
+   <header>
+      <nav class=" navbar navbar-expand-lg navbar-dark">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" width="30" height="30" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav mr-auto ml-auto">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="/">Главная</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#our_best">Наши преимущества</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#places">Заведения и меню</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+   </header>
+   <main>
+      <!-- Alert -->
+      <div class="alert alert-success mb-0 alert-dismissible fade show" role="alert">
+         <strong>Добро пожаловать!</strong> Рады приветстовать вас у нас в магазине!
+         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+         </button>
+      </div>
+      <!-- /Alert -->
+      <!-- Carousel -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+         <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+         </ol>
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <div class="carousel-caption d-md-block">
+                  <h5>Добро пожаловать!</h5>
+                  <p>Мы - лучшая доставка еды!</p>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="carousel-caption d-md-block">
+                  <h5>Быстро и качественно!</h5>
+                  <p>Доставка горячей еды от 20 минут</p>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="carousel-caption d-md-block">
+                  <h5>Льготы и скидки</h5>
+                  <p>А так же специальные предложения.</p>
+               </div>
+            </div>
+         </div>
+         <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+         </a>
+         <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+         </a>
+      </div>
+      <!-- /Carousel -->
+      <!-- MainContent -->
+      <div class="container-fluid mt-5" id="our_best">
+         <div class="row">
+            <div class="col-sm-12 text-center mb-5">
+               <h2>Наши преимущества</h2>
+            </div>
+            <div class="col-sm-12 col-md-2 col-lg-4 text-center">
+               <h3 class="text-success">Быстро</h3>
+               <p class="text-info">Доставляем от 20 минут</p>
+            </div>
+            <div class="col-sm-12 col-md-2 col-lg-4 text-center">
+               <h3 class="text-success">Всегда свежая еда</h3>
+               <p class="text-info">Готовим специально для вас</p>
+            </div>
+            <div class="col-sm-12 col-md-2 col-lg-4 text-center">
+               <h3 class="text-success">Лучшие цены</h3>
+               <p class="text-info">Цены на любой вкус</p>
+            </div>
+            <div class="col-sm-12 col-md-2 col-lg-4 text-center">
+               <h3 class="text-success">Скидки</h3>
+               <p class="text-info">Накопительная система скидки</p>
+            </div>
+            <div class="col-sm-12 col-md-2 col-lg-4 text-center">
+               <h3 class="text-success">Удобно</h3>
+               <p class="text-info">Можно заказать ко времени</p>
+            </div>
+            <div class="col-sm-12 col-md-2 col-lg-4 text-center">
+               <h3 class="text-success">Ассортимент</h3>
+               <p class="text-info">Широкий выбор блюд</p>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid mt-5" id="places">
+         <div class="row">
+            <div class="col-sm-12 col-lg-12 text-center">
+               <h2>Заведения и меню</h2>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-sm-12 col-md-2 col-lg-4">
+               <div class="card shadow-sm">
+                  <div class="card-body">
+                     <h5 class="card-title">Поиск ресторана</h5>
+                     <form>
+                        <div class="form-group">
+                           <label for="">Административный округ</label>
+                           <select name="admArea" id="admArea" class="form-control">
+
+                           </select>
+                        </div>
+                        <div class="form-group">
+                           <label for="">Район</label>
+                           <select name="district" id="district" class="form-control">
+                              <option>1</option>
+                           </select>
+                        </div>
+                        <div class="form-group">
+                           <label for="">Тип</label>
+                           <select name="typeObject" id="typeObject" class="form-control">
+                           </select>
+                        </div>
+                        <div class="form-group">
+                           <label for="">Соц. скидки</label>
+                           <select name="socialPrivileges" id="socialPrivileges" class="form-control">
+                              <option value="0" selected>Нет</option>
+                              <option value="1">Да</option>
+                           </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Найти</button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-12 col-md-2 col-lg-8">
+               <div class="restaurants">
+
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid">
+         <div class="row menuitemslist">
+
+         </div>
+      </div>
+      <!-- /MainContent -->
+   </main>
+   <footer class="mt-auto text-center bg-light pt-5">
+      <h6>СуперЕда</h6>
+      <p>ул. Лубянка д.1</p>
+      <p>+7 495 123-45-67</p>
+   </footer>
+   <script>
+      var BASE_URL = "http://exam.std-1087.ist.mospolytech.ru/";
+   </script>
+   <script src="js/scripts-dist.js"></script>
+</body>
+
+</html>

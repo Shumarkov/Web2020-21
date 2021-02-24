@@ -1,0 +1,13 @@
+{{#data}}
+   <div class="menu-item col-sm-12 col-md-2 col-lg-2 mt-3 set_{{id}}">
+      <div class="card">
+      <img src="{{image}}" class="card-img-top" alt="...">
+      <div class="card-body">
+         <h5 class="card-title">{{name}} <span class="badge badge-pill badge-light">Цена: <span class="price">{{price}}</span> руб.</span></h5>
+         <p class="card-text">{{descripton}}</p>
+         <input class="form-control" type="number" value="1" data-item="amount-{{id}}"/>
+         <a href="#" class="btn btn-primary" id="{{id}}">В корзину</a>
+      </div>
+      </div>
+   </div>
+{{/data}}
